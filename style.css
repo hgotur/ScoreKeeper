@@ -1,0 +1,259 @@
+h1 {
+	color: white;
+}
+
+body {
+	/*background: #420600 url('bg-texture.jpg') repeat;*/
+	background-color: rgba(0, 157, 53, 1);
+
+	font-family: 'Comfortaa', cursive;
+	color: white;
+}
+
+.screen {
+	position: relative;
+	width: 1200px;
+	height: 400px;
+
+	margin: 0 auto;
+	padding: 20px;
+
+	background-color:rgba(256, 256, 256, 0.3);
+
+	border-radius: 5px;
+
+	line-height: 3em;
+}
+
+.left {
+	float: left;
+	margin: 0px 10px;
+}
+
+.right {
+	float: right;
+	margin: 0px 10px;
+}
+
+.bar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	display: inline-block;
+}
+#submit {
+	line-height: 1.5em;
+	float: right;
+	height: 24px;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+	background-color: rgba(214, 163, 21, .9);
+	border-radius: 5px;
+}
+
+#submit:hover {
+	background-color: rgba(244, 193, 0, .9);
+	cursor: pointer;
+	cursor: hand;
+}
+.body {
+	width: 1200px;
+	margin: 0 auto;
+	cursor: default;
+}
+
+#title {
+	color: white;
+	font-size: 108px;
+	text-align: center;
+	padding: 20px;
+}
+
+.team {
+	width: 500px;
+	height: 450px;
+
+	margin: 20px;
+	padding: 20px;
+
+	background-color:rgba(256, 256, 256, 0.3);
+
+	border-radius: 5px;
+}
+
+#team1 {
+	float: left;
+}
+
+#team2 {
+	float: right;
+}
+#team1 h2 {
+	float: left;
+	color: white;
+}
+
+#team2 h2 {
+	float: right;
+	color: white;
+}
+
+.score {
+	height: 30%;
+	width: 50%;
+
+	margin: 40px auto;
+
+	position: relative;
+
+	background-color:rgba(0, 0, 0, 0.05);
+
+	border-radius: 5px;
+}
+
+.score p {
+	width: 100%;
+	position: absolute;
+	top: 30%;
+
+	text-align: center;
+
+	color: white;
+	font-size: 72px;
+} 
+
+.power {
+	height: 24px;
+	width: 85px;
+	display: inline-block;
+	margin: 5px 12px;
+	padding: 10px 5px;
+	text-align: center;
+	color: rgba(256, 256, 256, 0.7);;
+	border-radius: 5px;
+}
+
+.power:hover {
+	background-color:rgba(255, 45, 11, .9);
+	color: white;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.player {
+	height: 24px;
+	width: 85px;
+	background-color:rgba(200, 100, 17, .9);
+	display: inline-block;
+	margin: 10px 12px;
+	padding: 10px 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.player:hover {
+	background-color:rgba(255, 90, 11, .9);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.neg {
+	height: 24px;
+	width: 85px;
+	display: inline-block;
+	margin: 5px 12px;
+	padding: 10px 5px;
+	text-align: center;
+	color: rgba(256, 256, 256, 0.7);;
+	border-radius: 5px;
+}
+
+.neg:hover {
+	background-color:rgba(255, 135, 11, .9);
+	color: white;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.bonus {
+	height: 24px;
+	width: 85px;
+	background-color:rgba(200, 100, 17, .9);
+	display: inline-block;
+	margin: 64px 12px;
+	padding: 10px 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.bonus:hover {
+	background-color:rgba(255, 90, 11, .9);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.player-inactive {
+	height: 24px;
+	width: 85px;
+	background-color:rgba(200, 100, 17, 1);
+	opacity: .3;
+
+	display: inline-block;
+	margin: 64px 12px;
+	padding: 10px 5px;
+
+	text-align: center;
+	color: white;
+
+	border-radius: 5px;
+}
+
+#menubar {
+	width: 1120px;
+
+	margin: 20px;
+	padding: 20px;
+
+	position: relative;
+
+	display: inline-block;
+	background-color:rgba(256, 256, 256, 0.3);
+
+	border-radius: 5px;
+}
+
+.menubar-items {
+	height: 24px;
+	padding: 10px;
+	margin: 0px 10px;
+	text-align: center;
+	background-color: rgba(214, 163, 21, .9);
+	border-radius: 5px;
+	float: left;
+}
+
+.menubar-items:hover {
+	background-color: rgba(244, 193, 0, .9);
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.bottom {
+	/*position: absolute;
+	bottom: 800px;*/
+	width: 100%;
+
+	display: inline-block;
+	margin-top: 50px;
+	padding: 10px 0;
+
+	text-align: center;
+	background-color:rgba(0, 0, 0, 0.05);
+}
